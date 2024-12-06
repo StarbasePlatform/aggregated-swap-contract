@@ -13,11 +13,6 @@ With Starbase, users can enjoy lightning-fast transaction speeds, thanks to the 
 - Smart contract source code (located in the `contracts/` folder)
 - Contract interfaces (`ABI` and interface definitions)
 
-## Excluded
-- Test scripts
-- Deployment scripts
-- Internal tools
-
 ## How to Use
 1. Clone the repository:
    ```bash
