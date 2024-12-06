@@ -13,20 +13,4 @@ With Starbase, users can enjoy lightning-fast transaction speeds, thanks to the 
 - Smart contract source code (located in the `contracts/` folder)
 - Contract interfaces (`ABI` and interface definitions)
 
-## How to Use
-1. Clone the repository:
-   ```bash
-   git clone <repository_url>
-   ```
-2. Install dependencies (if applicable):
-   ```bash
-   npm install
-   ```
-3. Compile the contracts:
-   ```bash
-   npx hardhat compile
-   ```
-4. Interact with the contracts:
-   - Use the provided ABI to interact with the blockchain (tools such as [Ethers.js](https://docs.ethers.io/) or [web3.js](https://web3js.readthedocs.io/) are recommended).
-
 
