@@ -5,7 +5,12 @@ pragma solidity 0.8.12;
 contract CallSwapTool {
 
     error ZeroAddress();
-    
+    /**
+     * @dev call by aggregated swap router contract.
+     * @param callSwapAddr Aggregated swap address.
+     * @param data Aggregated swap call datas
+     * @param message The error return message if call failed
+     */
     function callswap(
         address callSwapAddr,
         bytes calldata data,
